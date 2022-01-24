@@ -53,6 +53,7 @@ These styles can also decorate borders with lines or images, and make them squar
 - {{cssxref("border-right-color")}}
 - {{cssxref("border-right-style")}}
 - {{cssxref("border-right-width")}}
+- {{cssxref("border-spacing")}}
 - {{cssxref("border-style")}}
 - {{cssxref("border-top")}}
 - {{cssxref("border-top-color")}}
