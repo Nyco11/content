@@ -130,7 +130,7 @@ In an SVG document, the viewport is the visible area of the SVG image. You can s
 <svg height="300" width="400"></svg>
 ```
 
-In this examples, the viewport has an aspect ratio of 3::4, and is, but default, 400 by 300 units, with a unit generally being a CSS pixel.
+In this examples, the viewport has an aspect ratio of 3:4, and is, but default, 400 by 300 units, with a unit generally being a CSS pixel.
 
 SVG also has an internal coordinate system defined via the [viewbox](/en-US/docs/Web/SVG/Attribute/viewBox) attribute, which is not related to this viewport discussion.
 
@@ -142,7 +142,7 @@ If you include an SVG file in your HTML, the viewport of the SVG is the initial 
 }
 ```
 
-Generally, when you write the above media query, the styles are applied if the viewport, generally the browser window, is between 400px and 500px, inclusive. The width media query in the SVG is based on the element in which the SVG is contained — the {{htmlelement("img")}} if the source is an SVG file, the SVG itself if the SVG is included directly into the HTML, or the parent if the parent element has a width assigned and — not the viewport’s width. With the above media query being in our SVG file, the CSS is applied if the SVG container is between 400 and 500px.
+Generally, when you write the above media query, the styles are applied if the viewport, generally the browser window, is between 400px and 500px, inclusive. The width media query in the SVG is based on the element in which the SVG is contained — the {{htmlelement("img")}} if the source is an SVG file, the SVG itself if the SVG is included directly into the HTML, or the parent if the parent element has a width assigned — and not on the viewport’s width. With the above media query being in our SVG file, the CSS is applied if the SVG container is between 400 and 500px.
 
 ### JavaScript
 
